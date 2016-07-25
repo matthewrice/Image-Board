@@ -1,0 +1,71 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.toggle-nav-bar{
+  height: 60px;
+  padding-top: 8px;
+  background-color: rgb(72,109,153);
+
+  .glyphicon-plus-sign{
+    font-size: 30px;
+  }
+}
+
+.image-board-input-form{
+  margin-bottom: 40px;
+  height: 270px;
+  background-color: white;
+}
+
+.picture-url{
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+
+.picture-url,
+.picture-caption{
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid rgb(148,145,117);
+}
+
+.cancel-add-image-button{
+  font-size: 20px;
+  width: 200px;
+  left: 30px;
+  margin-top: 15px;
+  height: 60px;
+}
+
+.add-image-button{
+  font-size: 20px;
+  width: 200px;
+  left: 35px;
+  margin-top: 15px;
+  height: 60px;
+}
+
+.my-app{
+  background-color: rgb(237,238,239);
+}
+
+.caption{
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
